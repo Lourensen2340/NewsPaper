@@ -1,0 +1,71 @@
+@"
+# Зависимости
+node_modules/
+pnpm-lock.yaml
+
+# Production
+build/
+dist/
+
+# Тестовые файлы
+coverage/
+
+# Окружение
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+~$*
+
+# ОС
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
+*.cache
+.cache/
+.parcel-cache/
+
+# Документация
+docs/
+storybook-static/
+
+# Vite
+.vite/
+*.local
+
+# ESLint
+.eslintcache
+
+# Stylelint
+.stylelintcache
+
+# Разное
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
