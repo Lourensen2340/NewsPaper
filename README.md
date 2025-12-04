@@ -33,8 +33,9 @@
 # Бэкенд
 cd NewsPaper
 dotnet run
-
 # Фронтенд
 cd Src/clientapp
 npm install
 npm start
+Email admin@news.com
+password admin123
